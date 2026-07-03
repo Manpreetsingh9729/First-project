@@ -1,0 +1,250 @@
+.Body{
+    background-color: black;
+    margin: 0px;
+}
+
+.nav{
+  background-color:darkgrey;
+  margin-bottom: 100px;
+  min-width: auto;
+}
+
+.navbar{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.h1{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar li{
+  float: right;
+}
+
+.navbar a{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.nav a:hover{
+  background-color: rgb(73, 73, 73);
+}
+
+.Name{
+  color: red;
+  font-weight:bold;
+  font-size: 25px;
+}
+
+.h2{
+  color: white;
+  font-size: 25px;
+  font-size: bold;
+  margin-right: 10px;
+}
+
+.passion{
+    color: white;
+}
+ 
+.media-container {
+  display: flex;
+  align-items: center; 
+  gap: 40px;           
+  max-width: 800px;    
+  margin: 0 auto;
+  border: solid black;
+  border-radius: 55px;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.media-image {
+  max-width: 40%;      
+  height: auto; 
+  clip-path: ellipse(45% 50%);       
+}
+
+.media-text {
+  flex: 1;
+}
+
+.text{
+  color: white;
+  font: italic;
+}
+
+.insta{
+  color: red;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.insta:hover{
+  color: rebeccapurple;
+}
+
+.linkedin{
+  color: red;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.linkedin:hover{
+  color: rebeccapurple;
+}
+
+.gmail{
+  color: red;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.gmail:hover{
+  color: rebeccapurple;
+}
+
+.github{
+  color: red;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.github:hover{
+  color: rebeccapurple;
+}
+
+.buttonbox{
+  margin: 35px;
+}
+
+.button{
+  border: solid red;
+  border-radius: 30px;
+  height: 50px;
+  width: 140px;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button:hover{
+  background-color: red;
+  color: black;
+}
+
+.nav2{
+  background-color:darkgrey;
+  margin-bottom: 50px;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact button{
+  width: 260px;
+  border-radius: 40px;
+  border: solid;
+  border-color: red;
+  background-color: black;
+  color: red;
+  margin: 15px;
+}
+
+.contact button:hover{
+  color: rebeccapurple;
+  border-color: rebeccapurple;
+}
+
+.skills{
+  text-align: center;
+}
+
+.skills button{
+  width: 260px;
+  border-radius: 40px;
+  border: solid;
+  border-color: red;
+  background-color: black;
+  color: red;
+  margin: 15px;
+}
+
+.skillinfo button:hover{
+  color: rebeccapurple;
+  border-color: rebeccapurple;
+}
+
+.Htmlinfo{
+  border: solid;
+  border-color: red;
+  border-radius: 45px;
+  padding: 10px;
+  margin: 25px;
+}
+
+.cssinfo{
+  border: solid;
+  border-color: red;
+  border-radius: 45px;
+  padding: 10px;
+  margin: 25px;
+}
+
+.Pythoninfo{
+  border: solid;
+  border-color: red;
+  border-radius: 45px;
+  padding: 10px;
+  margin: 25px;
+}
+
+.skillinfo h1{
+  text-align: center;
+}
+
+.skillinfo p{
+  color: rebeccapurple;
+  font-size: large;
+  text-align: center;
+}
+
+.projects{
+  border: solid;
+  text-align: center;
+}
+
+.projects a{
+  text-decoration: none;
+}
+
+.projects button{
+  color: red;
+  border: solid red;
+  width: 550px;
+  background-color: black;
+  border-radius: 40px;
+  margin: 25px;
+}
+
+.projects button:hover{
+  color: rebeccapurple;
+  border-color: rebeccapurple;
+}
